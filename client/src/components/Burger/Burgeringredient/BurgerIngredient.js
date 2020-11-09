@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import PropTypes from 'prop-types';
 import React, {Component} from 'react';
-import classes from './BuregerIngredient.module.css';
+import classes from './BurgerIngredient.module.css';
 
 class BurgerIngredient extends Component {
     render(){

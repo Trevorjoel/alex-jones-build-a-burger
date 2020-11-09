@@ -2,6 +2,8 @@ import React from "react";
 import classes from './Burger.module.css';
 import BurgerIngredient from "./Burgeringredient/BurgerIngredient";
 const burger = (props) => {
+
+    console.log(props);
     // transform an object of key/value pairs into an array of burger ingredients
     // where the value of the object is important to decide how many ingredients i need
     // and keys to decide which type I need
